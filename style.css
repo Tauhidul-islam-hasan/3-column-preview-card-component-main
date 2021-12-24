@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(0, 0%, 95%));
+    font-size: 15px;
+   
+}
+
+h1 {
+    color: hsl(0, 0%, 95%); font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+
+.row {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 6rem;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 7rem;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5rem;
+}
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 5rem;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 5rem;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: solid transparent;
+    border-radius: 3rem;
+    position: relative;
+    top: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.button:hover {
+    background-color: #fff;
+    text-decoration: none;
+    color: none;
+}
+
+.bn36 {
+    border-color: #fff;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.bn36:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0);
+    ;
+}
+@media(max-width:1028px) {
+.row {
+      text-align: center;
+      width: 328px;height: 420px;margin-bottom: 56rem;
+    }
+    .attribution{padding-bottom: 2rem;}
+}
